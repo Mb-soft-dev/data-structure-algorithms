@@ -29,6 +29,13 @@ class LinkedList:
                 return data
             head = head.next
         return -1
+    
+
+    def getByIndex(self, index):
+        return 'not implemented'
+
+    def mergeList(self, data):
+        return 'not implemented'
 
     def isEmpty(self):
         return self.head is None
